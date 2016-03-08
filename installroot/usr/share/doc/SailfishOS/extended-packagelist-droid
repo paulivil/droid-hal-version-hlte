@@ -5,6 +5,7 @@ autoconf-2.69-1.1.1.noarch
 automake-1.11.1-1.1.1.noarch
 bash-3.2.57-1.5.3.armv7hl
 binutils-2.25-1.2.4.armv7hl
+bison-2.7-1.1.3.armv7hl
 bluez-4.101+git64-1.22.1.armv7hl
 bluez-configs-mer-4.101+git64-1.22.1.armv7hl
 bluez-libs-4.101+git64-1.22.1.armv7hl
@@ -15,6 +16,8 @@ busybox-symlinks-gzip-1.21.0+git6-1.5.1.armv7hl
 bzip2-1.0.6-1.1.3.armv7hl
 bzip2-libs-1.0.6-1.1.3.armv7hl
 ca-certificates-2014.2.1-1.4.2.noarch
+check-0.9.8-1.1.3.armv7hl
+check-devel-0.9.8-1.1.3.armv7hl
 cmake-2.8.11.2-1.1.26.armv7hl
 connman-1.24+git106-1.20.1.armv7hl
 connman-configs-mer-1.24+git106-1.20.1.armv7hl
@@ -25,6 +28,7 @@ coreutils-6.9-1.1.13.armv7hl
 cpio-2.11-1.2.3.armv7hl
 cpp-4.8.3-1.2.4.armv7hl
 curl-7.43.0-1.8.1.armv7hl
+cvs-1.11.23-1.1.4.armv7hl
 db4-4.8.30-1.1.3.armv7hl
 db4-utils-4.8.30-1.1.3.armv7hl
 dbus-1.6.30+git1-1.8.3.armv7hl
@@ -40,7 +44,7 @@ droid-config-hlte-preinit-plugin-1-1.armv7hl
 droid-config-hlte-pulseaudio-settings-1-1.armv7hl
 droid-config-hlte-sailfish-1-1.noarch
 droid-hal-hlte-0.0.6-201603040922.armv7hl
-droid-hal-hlte-devel-0.0.6-201603041857.armv7hl
+droid-hal-hlte-devel-0.0.6-201603081556.armv7hl
 droid-hal-hlte-img-boot-0.0.6-201603040922.armv7hl
 droid-hal-hlte-img-recovery-0.0.6-201603040922.armv7hl
 droid-hal-hlte-kernel-0.0.6-201603040922.armv7hl
@@ -55,6 +59,7 @@ file-libs-5.14-1.2.1.armv7hl
 filesystem-3.1-1.1.1.noarch
 findutils-4.2.31-1.1.3.armv7hl
 flac-1.2.1-1.2.3.armv7hl
+flex-2.5.37-1.1.3.armv7hl
 fontconfig-2.8.0-1.1.3.armv7hl
 fontconfig-devel-2.8.0-1.1.3.armv7hl
 freetype-2.4.9-1.1.3.armv7hl
@@ -69,6 +74,8 @@ gdb-7.5.1+git3-1.4.7.armv7hl
 gdbm-1.8.3-1.1.4.armv7hl
 geoclue-0.12.99.6-1.7.1.armv7hl
 geoclue-devel-0.12.99.6-1.7.1.armv7hl
+gettext-devel-0.18.1.1-1.2.3.armv7hl
+gettext-libs-0.18.1.1-1.2.3.armv7hl
 giflib-4.2.3+git1-1.2.3.armv7hl
 git-1.8.3-4.4.1.armv7hl
 glib-networking-2.38.2-1.1.4.armv7hl
@@ -82,11 +89,23 @@ gmime-2.6.10-1.1.7.armv7hl
 gmp-4.3.2-1.2.3.armv7hl
 gnupg2-2.0.4-1.1.7.armv7hl
 gnutls-2.12.23.3-1.6.1.armv7hl
+gobject-introspection-1.38.0+git1-1.1.7.armv7hl
+gobject-introspection-devel-1.38.0+git1-1.1.7.armv7hl
 gpg-pubkey-c5531ede-511956c5
 grep-2.5.1a-1.1.3.armv7hl
 groff-1.18.1.4-1.1.14.armv7hl
+gst-plugins-bad-0.10.23+20140729.0-10.9.3.jolla.armv7hl
+gst-plugins-bad-free-devel-0.10.23+git1-1.2.5.armv7hl
+gst-plugins-base-0.10.36+git2-1.3.5.armv7hl
+gst-plugins-base-devel-0.10.36+git2-1.3.5.armv7hl
+gstreamer-0.10.36-1.1.5.armv7hl
+gstreamer-devel-0.10.36-1.1.5.armv7hl
+gstreamer0.10-droidcamsrc-0.0.0-1.armv7hl
+gstreamer0.10-omx-0.0.0-1.armv7hl
 gstreamer1.0-1.4.5+git1-1.3.3.armv7hl
+gstreamer1.0-devel-1.4.5+git1-1.3.3.armv7hl
 gstreamer1.0-plugins-base-1.4.5+git1-1.3.3.armv7hl
+gstreamer1.0-plugins-base-devel-1.4.5+git1-1.3.3.armv7hl
 gstreamer1.0-plugins-good-1.4.5+git9.1-1.5.1.armv7hl
 hwdata-0.234-1.1.1.noarch
 hybris-libsensorfw-qt5-0.8.17-0.armv7hl
@@ -116,12 +135,18 @@ libcurl-7.43.0-1.8.1.armv7hl
 libdrm-2.4.39-1.1.3.armv7hl
 libdsme-0.64.1-1.5.1.armv7hl
 libexif-0.6.21-1.1.3.armv7hl
+libexif-devel-0.6.21-1.1.3.armv7hl
 libffi-3.0.10-1.1.3.armv7hl
+libffi-devel-3.0.10-1.1.3.armv7hl
 libgcc-4.8.3-1.2.4.armv7hl
 libgcrypt-1.5.0-1.4.3.armv7hl
 libgomp-4.8.3-1.2.4.armv7hl
 libgpg-error-1.10-1.1.3.armv7hl
 libgsf-1.14.26-1.1.8.armv7hl
+libgstreamer0.10-gralloc-1.0.0-1.armv7hl
+libgstreamer0.10-gralloc-devel-1.0.0-1.armv7hl
+libgstreamer0.10-nativebuffer-1.0.0-1.armv7hl
+libgstreamer0.10-nativebuffer-devel-1.0.0-1.armv7hl
 libhybris-0.0.0-1.armv7hl
 libhybris-devel-0.0.0-1.armv7hl
 libhybris-libEGL-0.0.0-1.armv7hl
@@ -149,6 +174,7 @@ libngf-0.24-1.2.3.armv7hl
 libngf-qt5-0.3.1-1.5.1.armv7hl
 libnl-3.2.9-1.1.3.armv7hl
 libogg-1.3.0-1.1.3.armv7hl
+libogg-devel-1.3.0-1.1.3.armv7hl
 libpng-1.6.16-1.4.1.armv7hl
 libprofile-qt5-0.35.2-1.4.2.armv7hl
 libprofile-qt5-devel-0.35.2-1.4.2.armv7hl
@@ -167,6 +193,7 @@ libstdc++-4.8.3-1.2.4.armv7hl
 libstdc++-devel-4.8.3-1.2.4.armv7hl
 libtasn1-3.6-1.3.2.armv7hl
 libtheora-1.2.0alpha1+git-1.2.3.armv7hl
+libtheora-devel-1.2.0alpha1+git-1.2.3.armv7hl
 libtiff-4.0.3-1.2.3.armv7hl
 libtool-2.4.2-1.1.3.armv7hl
 libtool-ltdl-2.4.2-1.1.3.armv7hl
@@ -176,6 +203,7 @@ libuser-0.57.3-1.1.6.armv7hl
 libutempter-1.1.5-1.1.3.armv7hl
 libuuid-2.25+git3-1.2.3.armv7hl
 libvorbis-1.3.3-1.1.3.armv7hl
+libvorbis-devel-1.3.3-1.1.3.armv7hl
 libwspcodec-2.2.1-1.4.3.armv7hl
 libxkbcommon-0.5.0+git1-1.3.3.armv7hl
 libxml2-2.9.1-1.3.3.armv7hl
@@ -195,9 +223,12 @@ mpc-0.9-1.1.3.armv7hl
 mpfr-3.1.1-1.1.3.armv7hl
 mtdev-1.1.3-1.1.3.armv7hl
 mtdev-devel-1.1.3-1.1.3.armv7hl
+nano-2.2.6-1.1.3.armv7hl
 ncurses-5.9-1.1.5.armv7hl
 ncurses-base-5.9-1.1.5.armv7hl
 ncurses-libs-5.9-1.1.5.armv7hl
+nemo-gstreamer0.10-interfaces-0.0.20131118.0-1.3.5.armv7hl
+nemo-gstreamer0.10-interfaces-devel-0.0.20131118.0-1.3.5.armv7hl
 nemo-qml-plugin-configuration-qt5-0.0.10-1.8.1.armv7hl
 nemo-theme-default-1.1.1-1.5.1.noarch
 ngfd-0.104-1.16.1.armv7hl
@@ -215,6 +246,8 @@ openssh-5.6p1+git9-1.6.6.armv7hl
 openssh-clients-5.6p1+git9-1.6.6.armv7hl
 openssl-libs-1.0.2d-1.8.1.armv7hl
 orc-0.4.18-1.2.3.armv7hl
+orc-compiler-0.4.18-1.2.3.armv7hl
+orc-devel-0.4.18-1.2.3.armv7hl
 p11-kit-0.22.1-1.1.2.armv7hl
 p11-kit-nss-ckbi-0.22.1-1.1.2.armv7hl
 p11-kit-trust-0.22.1-1.1.2.armv7hl
@@ -260,6 +293,7 @@ pulseaudio-modules-nemo-parameters-6.0.20-1.13.1.armv7hl
 pulseaudio-modules-nemo-stream-restore-6.0.20-1.13.1.armv7hl
 pulseaudio-policy-enforcement-6.0.21-1.15.1.armv7hl
 python-2.7.9-1.3.2.armv7hl
+python-giscanner-1.38.0+git1-1.1.7.armv7hl
 python-libs-2.7.9-1.3.2.armv7hl
 python-lxml-3.2.0-1.1.5.armv7hl
 python-yaml-3.10-1.2.3.armv7hl
