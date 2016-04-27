@@ -8,7 +8,7 @@
 %define have_vibrator 1
 %define have_led 1
 
-%define have_camera 1
-%define have_mm_omx 1
+%define have_camera 0
+%define have_mm_omx 0
 
 %include droid-hal-version/droid-hal-version.inc
